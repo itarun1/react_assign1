@@ -1,0 +1,428 @@
+{
+  "get-restaurants": [
+    {
+      "name": "Meraki",
+      "id": 1,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 600,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false,
+        "upi": true
+      },
+      "rating": 4.3,
+      "votes": 300,
+      "reviews": 445,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/5/18276605/b8d265680deb022e3adf1b29cdd931f7.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+    },
+    {
+      "name": "Kovai Alangar vilas",
+      "id": 2,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 600,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": false,
+        "cash": true,
+        "upi": true
+      },
+      "rating": 4,
+      "votes": 300,
+      "reviews": 445,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Barbieri_-_ViaSophia25668.jpg"
+    },
+    {
+      "name": "Oven Story",
+      "id": 3,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 600,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true,
+        "upi": false
+      },
+      "rating": 3.8,
+      "votes": 300,
+      "reviews": 445,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/0/18386400/fe8c80fa162c790264a597b45e7e6580.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+    },
+    {
+      "name": "Southern Spice",
+      "id": 4,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 600,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": false,
+        "cash": true,
+        "upi": false
+      },
+      "rating": 2,
+      "votes": 300,
+      "reviews": 445,
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpsgKWkqWUcckd8c7pz_ViYENX0rJLXGz_N5ux0yOEnDNa0R1l&usqp=CAU"
+    },
+    {
+      "name": "ITC Grand Chola",
+      "id": 5,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 5000,
+      "minOrder": 2000,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false,
+        "upi": true
+      },
+      "rating": 4.9,
+      "votes": 3000,
+      "reviews": 2445,
+      "src": "https://r1imghtlak.mmtcdn.com/14853ec0a99311e7a4e10a209fbd0127.jpg?&output-quality=75&downsize=520:350&crop=520:350;2,0&output-format=jpg"
+    },
+    {
+      "name": "The Raintree",
+      "id": 6,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 3000,
+      "minOrder": 2000,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true,
+        "upi": true
+      },
+      "rating": 3,
+      "votes": 30650,
+      "reviews": 12445,
+      "src": "https://b.zmtcdn.com/data/reviews_photos/94f/9e74d230db1d06a7132b0aada3afd94f_1604511916.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+    },
+    {
+      "name": "The Belgian Waffle Co.",
+      "id": 7,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 1500,
+      "minOrder": 500,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true,
+        "upi": false
+      },
+      "rating": 0.5,
+      "votes": 30650,
+      "reviews": 12445,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/3/18140523/cfbda35382090ddbf5128a946c235f74.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+    },
+    {
+      "name": "The Red Box",
+      "id": 8,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 500,
+      "minOrder": 200,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 3.8,
+      "votes": 506,
+      "reviews": 645,
+      "src": "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/cz5eqfncnraapuvijryb"
+    },
+    {
+      "name": "WOW Momos",
+      "id": 9,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 1000,
+      "minOrder": 200,
+      "deliveryTime": 2,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 2.5,
+      "votes": 850,
+      "reviews": 72545,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/8/18577178/fe92135685160e19b3a464a788876e45.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+    },
+    {
+      "name": "Food @ Finger",
+      "id": 10,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 700,
+      "minOrder": 100,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": false,
+        "cash": true
+      },
+      "rating": 4.5,
+      "votes": 65450,
+      "reviews": 86445,
+      "src": "https://dq5r178u4t83b.cloudfront.net/wp-content/uploads/sites/15/2019/10/07135449/sofitel-dubai-palm_HONG-LOONG-585x390.jpg"
+    },
+    {
+      "name": "Kobe Sizzlers",
+      "id": 11,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 1200,
+      "minOrder": 500,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 4.7,
+      "votes": 70650,
+      "reviews": 42445,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/1/19790611/d497a56f1222752de82d5c874887979d_o2_featured_v2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+    },
+    {
+      "name": "Parambriym",
+      "id": 12,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 800,
+      "minOrder": 200,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 2.7,
+      "votes": 650,
+      "reviews": 3645,
+      "src": "https://www.gannett-cdn.com/presto/2018/08/30/PKNS/ef37b7dc-aee5-4f6d-b771-4520efcf41ac-Sahara_09.jpg?width=540&height=&fit=bounds&auto=webp"
+    },
+    {
+      "name": "Wok Monk",
+      "id": 13,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 3000,
+      "minOrder": 2000,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 1.5,
+      "votes": 450,
+      "reviews": 200,
+      "src": "https://b.zmtcdn.com/data/reviews_photos/280/ea04387ceb1c81d114f1e901bd45d280_1527338372.jpg"
+    },
+    {
+      "name": "High on Grills",
+      "id": 14,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 2000,
+      "minOrder": 500,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 3.5,
+      "votes": 90650,
+      "reviews": 112445,
+      "src": "https://placepull.com/wp-content/uploads/2020/01/restaurant-busy-885-600x345.jpg"
+    },
+    {
+      "name": "Frozen Bottle",
+      "id": 15,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 350,
+      "minOrder": 100,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": false,
+        "cash": true
+      },
+      "rating": 5,
+      "votes": 30650,
+      "reviews": 12445,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/8/18643818/b92679cb5734265bd7b09255f1fa0d0d.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+    },
+    {
+      "name": "Kebabery",
+      "id": 16,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 600,
+      "minOrder": 100,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 2.8,
+      "votes": 650,
+      "reviews": 835,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/1/43281/253bc351dbdbd7a2a352de4aa94d2984_featured_v2.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+    },
+    {
+      "name": "Loretta's",
+      "id": 17,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 300,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.9,
+      "votes": 90650,
+      "reviews": 17445,
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQX8ar-gewzBPeJooH4IlhkeVIMNX8c5lCUEeSxrqDpYsp_3mbR&usqp=CAU"
+    },
+    {
+      "name": "The Baker's Nook",
+      "id": 18,
+      "cuisine": [
+        "Deserts"
+      ],
+      "costForTwo": 50,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.2,
+      "votes": 5650,
+      "reviews": 8249,
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-aUVDN6jZNnwpl-TzpCXL0BqHWmd3kaX97-LdFtVbKHlLCFFJ&usqp=CAU"
+    },
+    {
+      "name": "Chidambaram New Moorthy Cafe",
+      "id": 19,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 500,
+      "minOrder": 150,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 5,
+      "votes": 90650,
+      "reviews": 92445,
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbOYb5UHDcgZ53JhIOMImo8hqyS3Qs1Rhnc9CP3ndXYNMERxAk&usqp=CAU"
+    },
+    {
+      "name": "Little Hut",
+      "id": 20,
+      "cuisine": [
+        "continental",
+        "Asian",
+        "Pizza",
+        "Deserts"
+      ],
+      "costForTwo": 30,
+      "minOrder": 200,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": false,
+        "cash": true
+      },
+      "rating": 1.6,
+      "votes": 650,
+      "reviews": 445,
+      "src": "https://b.zmtcdn.com/data/pictures/9/18669029/299b4a7d3aec912534398222f8a4fbe2.jpg"
+    }
+  ]
+}
